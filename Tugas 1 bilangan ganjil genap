@@ -1,0 +1,9 @@
+#Input/inisiasi
+1.Masukan angka
+
+#Proses
+2.Jika angka dibagi 2 sisanya adalah 0, maka angka tersebut 
+adalah ganjil,jika tidak maka angka tersebut adalah ganjil.
+
+#Output
+3.Tampilkan bilangan ganjil genap 
