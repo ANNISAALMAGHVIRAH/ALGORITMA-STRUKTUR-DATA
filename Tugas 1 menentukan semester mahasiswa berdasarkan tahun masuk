@@ -1,0 +1,15 @@
+#Input/Inisiasi
+1.Tahun masuk mahasiswa : 2020
+2.Tahun dan bulan saat ini : 2021-9
+3.Semester genap
+
+#Proses
+4.Selisih tahun : 2024-2020=4
+5.Semester : 8
+6.Jika bulan saat ini berada pada rentang januari-juni,
+maka mahasiswa berada pada semester ganjil.
+7.Jika bulan saat ini berada pada rentang juli-desember,
+maka mahasiswa bwrada pada semester genap.
+
+#Output
+8.Semester saat ini dari siswa.
