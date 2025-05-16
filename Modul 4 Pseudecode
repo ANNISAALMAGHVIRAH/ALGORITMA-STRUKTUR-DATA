@@ -1,0 +1,38 @@
+BEGIN
+
+    // Mendefinisikan matriks A dan B
+    A = [[4, 5, 2],
+         [3, 2, 5],
+         [2, 1, 2]]
+
+    B = [[2, 4, 3],
+         [1, 4, 2],
+         [5, 3, 2]]
+
+    // Menghitung jumlah baris dan kolom untuk matriks A
+    baris_a = LENGTH(A)
+    kolom_a = LENGTH(A[0])
+
+    // Menghitung jumlah baris dan kolom untuk matriks B
+    baris_b = LENGTH(B)
+    kolom_b = LENGTH(B[0])
+
+    // Menampilkan matriks A dan informasi tentangnya
+    PRINT(A)
+    PRINT("Baris matriks A adalah: " + baris_a)
+    PRINT("Kolom matriks A adalah: " + kolom_a)
+    PRINT()
+
+    // Menampilkan matriks B dan informasi tentangnya
+    PRINT(B)
+    PRINT("Baris matriks B adalah: " + baris_b)
+    PRINT("Kolom matriks B adalah: " + kolom_b)
+
+    // Memeriksa kesesuaian untuk perkalian matriks
+    IF (kolom_a != baris_b) THEN
+        PRINT("Matriks A dengan B tidak dapat dikalikan")
+    ELSE
+        PRINT("Matriks A dengan B dapat dikalikan")
+    ENDIF
+
+END
